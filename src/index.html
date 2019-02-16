@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.chunks.main.css %>">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+
+<body>
+  <p><strong>Webpack config for HTML, SASS, TypeScript and hashing</strong></p>
+  <p>Entry point: ./src/index.ts</p>
+  <p>Output path: ./docs/ (for GutHub pages)</p>
+  <p>Development: yarn dev</p>
+  <p>Production: yarn build</p>
+
+  <script src="<%= htmlWebpackPlugin.files.chunks.vendor.entry %>"></script>
+  <script src="<%= htmlWebpackPlugin.files.chunks.main.entry %>"></script>
+</body>
+</html>
