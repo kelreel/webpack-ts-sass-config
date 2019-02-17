@@ -1,10 +1,10 @@
-# Webpack 4 HTML, JavaScript, SASS
+# Webpack 4 HTML, TypeScript, SASS, PostCSS
 
-Webpack config for HTML, SASS, PostCSS, JavaScript (with Babel) and hashing
+Webpack config for HTML, SASS, PostCSS, Typescript) and hashing
 
 ### Entry point: 
 ```
-./src/index.js
+./src/index.ts
 ```
 ### Output path: 
 ```
