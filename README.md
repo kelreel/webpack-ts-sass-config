@@ -2,10 +2,12 @@
 <p align="center">
   <sub>TypeScript, Babel, SASS, PostCSS... <sub>
 </p>
+
+This is my personal Webpack 4 config for single page (index.html) without frameworks. It will be updated as needed.
   
 ## Installation
 
-You can copy it
+Clone this repository and install modules:
 
 ```bash
 git clone https://github.com/kanitelk/webpack-ts-sass-config.git
