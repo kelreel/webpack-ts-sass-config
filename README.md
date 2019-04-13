@@ -1,22 +1,10 @@
-# Webpack 4 HTML, TypeScript, SASS, PostCSS
+<h1 align="center"><img height="150" src="./docs/logo.png" /><br>Webpack 4 TypeScript config</h1>
+## Installation
 
-Webpack config for HTML, SASS, PostCSS, Typescript) and hashing
+You can copy it
 
-### Entry point: 
-```
-./src/index.ts
-```
-### Output path: 
-```
-./docs/ (for GitHub pages)
+```bash
+git clone https://github.com/kanitelk/webpack-ts-sass-config.git
 ```
 
-### Development: 
-```
-yarn dev
-```
-
-### Production: 
-```
-yarn build
-```
+![](./docs/split.png)
