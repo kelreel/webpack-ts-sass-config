@@ -38,3 +38,28 @@ npm run build
 * Assets folder for Production
 * Minifying JS & CSS
 * Two .js chunks - main.js and vendor.js (modules)
+
+## Features
+
+* TypeScript
+* Babel
+* CSS/SASS + PostCSS (CSSnano, autoprefixer) + Normilize
+* Hashing
+* Assets folder for Production
+* Minifying JS & CSS
+* Two .js chunks - main.js and vendor.js (modules)
+
+## Entry point 
+
+Webpack.config.js
+
+```javascript
+{
+  entry: { main: "./src/index.ts" }, // Entry Point
+  output: {
+    path: path.resolve(__dirname, "docs"), // Output folder (Production)
+    filename: "[name].[chunkhash].js",
+    pathinfo: false
+}
+```
+
