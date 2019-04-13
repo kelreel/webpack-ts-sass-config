@@ -35,21 +35,13 @@ npm run build
 
 * TypeScript
 * Babel
-* SASS + PostCSS + Normilize
-* Hashing
-* Assets folder for Production
-* Minifying JS & CSS
-* Two .js chunks - main.js and vendor.js (modules)
-
-## Features
-
-* TypeScript
-* Babel
 * CSS/SASS + PostCSS (CSSnano, autoprefixer) + Normilize
 * Hashing
 * Assets folder for Production
 * Minifying JS & CSS
 * Two .js chunks - main.js and vendor.js (modules)
+
+![](./docs/split.png)
 
 ## Entry point 
 
