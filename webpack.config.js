@@ -9,6 +9,7 @@ conf = {
   entry: { main: "./src/index.ts" },
   output: {
     path: path.resolve(__dirname, "docs"),
+    publicPath: 'http://localhost:8080/docs/',
     filename: "[name].[chunkhash].js",
     pathinfo: false
   },
