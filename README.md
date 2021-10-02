@@ -10,7 +10,7 @@ This is my personal Webpack 4 config for single page (index.html) without framew
 Clone this repository and install modules:
 
 ```bash
-git clone https://github.com/kanitelk/webpack-ts-sass-config.git
+git clone https://github.com/kelreel/webpack-ts-sass-config.git
 cd webpack-ts-sass-config
 npm install
 ```
